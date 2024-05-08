@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    /* Ajusta todo el contenudo , margin y padding */
+    padding: 0;
+}
+
+.encabezado {
+
+    width: 400px;
+    /* Define el ancho deseado */
+    height: 150px;
+    /* Mantén la proporción de aspecto */
+
+}
+
+header {
+    background-color: #002659;
+    text-align: center;
+}
+
+h1 {
+    background-color: #002659;
+    color: white;
+    text-align: center;
+
+}
+
+.contenedor-imagenes {
+    display: flex;
+    /* Utiliza flexbox para organizar las imágenes */
+    justify-content: space-around;
+    /* Distribuye el espacio alrededor de las imágenes */
+    align-items: center;
+    /* Centra verticalmente las imágenes */
+}
+
+.imagen {
+    text-align: center;
+    /* Centra el texto */
+    margin: 0 10px;
+    /* Añade espacio entre las imágenes */
+}
+
+.imagen img {
+    width: 150px;
+    /* Establece un ancho fijo para las imágenes */
+    height: auto;
+    /* Mantiene la proporción de aspecto */
+}
